@@ -27,7 +27,7 @@ Matrix factorization is a simple embedding model. Given the feedback matrix $\m
 - A user embedding matrix $U \in \mathbb{R}^{m \times d}$, where row $i$ is the embedding for user $i$.
 - An item embedding matrix $V \in \mathbb{R}^{n \times d}$, where row $j$ is the embedding for item $j$. The image below depicts this:
 
-![[images/matrix factorization.png]]
+![Matrix factorization](https://github.com/imBLISP/RecSys/blob/main/images/matrix%20factorization.png)
 
 ## Optimizers
 
