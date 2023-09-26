@@ -6,7 +6,7 @@ RecSys is an integral part of industries right from food delivery to sales drive
 
 Common architecture of recommendation systems:
 
-![[Architecture.png]]
+![[images/Architecture.png]]
 
 ### Retrieval
 When we get a query embedding $q$, we search for item embeddings $V_i$ that are close to $q$ in the embedding space. This is a KNN problem.
@@ -27,7 +27,7 @@ Matrix factorization is a simple embedding model. Given the feedback matrix $\m
 - A user embedding matrix $U \in \mathbb{R}^{m \times d}$, where row $i$ is the embedding for user $i$.
 - An item embedding matrix $V \in \mathbb{R}^{n \times d}$, where row $j$ is the embedding for item $j$. The image below depicts this:
 
-![[matrix factorization.png]]
+![[images/matrix factorization.png]]
 
 ## Optimizers
 
