@@ -6,7 +6,7 @@ RecSys is an integral part of industries right from food delivery to sales drive
 
 Common architecture of recommendation systems:
 
-![[images/Architecture.png]]
+![Architecture](https://github.com/imBLISP/RecSys/blob/main/images/Architecture.png)
 
 ### Retrieval
 When we get a query embedding $q$, we search for item embeddings $V_i$ that are close to $q$ in the embedding space. This is a KNN problem.
