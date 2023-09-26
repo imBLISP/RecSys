@@ -24,8 +24,8 @@ Re-ranking filters the candidates even further to maintain freshness, diversity 
 
 ### Matrix factorization
 Matrix factorization is a simple embedding model. Given the feedback matrix $\mathrm{A} \in R^{m \times n}$, where $m$ is the number of users (or queries) and $n$ is the number of items, the model learns:
-- A user embedding matrix $'U \in \mathbb{R}^{m \times d}'$, where row $i$ is the embedding for user $i$.
-- An item embedding matrix $'V \in \mathbb{R}^{n \times d}'$, where row $j$ is the embedding for item $j$. The image below depicts this:
+- A user embedding matrix $$U \in \mathbb{R}^{m \times d}$$, where row $i$ is the embedding for user $i$.
+- An item embedding matrix $$V \in \mathbb{R}^{n \times d}$$, where row $j$ is the embedding for item $j$. The image below depicts this:
 
 ![Matrix factorization](https://github.com/imBLISP/RecSys/blob/main/images/matrix%20factorization.png)
 
